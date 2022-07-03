@@ -1,0 +1,15 @@
+
+#profile-picture {
+    width: 200px;
+}
+#portfolio figure {
+    text-align: center;
+}
+#portfolio figure img {
+    max-width: 500px;
+    margin: 0;
+}
+
+#contacts img {
+    width: 50px;
+}
