@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Jone Dae</title>
+    <link rel="stylesheet" href="./static/css/index.css">
+</head>
+<body>
+
+<header>
+    <nav id="navbar">
+        <ul>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+            <li><a href="#">Home</a></li>
+        </ul>
+    </nav>
+    <div id="header-title-wrapper">
+        <h1>Jone Dae, a skeleton-like developer</h1>
+    </div>
+</header>
+
+<section id="about">
+    <div id="about-img-wrapper">
+        <img id="profile-picture" src="./static/images/profile.jpg" alt="Jone Dae's picture">
+    </div>
+    <div id="about-text-wrapper">
+        <h2>About me</h2>
+        <p>
+            Hello, I'm a skeleton.
+            This is a random strings of words to fulfill the task's requirement.
+            <br/>
+            <span><b>Skills:</b> HTML, CSS, JS, Necromancy</span>
+        </p>
+    </div>
+</section>
+
+<section id="portfolio">
+    <h2>Portfolio</h2>
+    <div id="portfolio-wrapper">
+        <figure>
+            <img src="./static/images/project1.png" alt="Project Flashcard">
+            <div class="button-wrapper">
+                <button type="button" class="open-window">Flashcard</button>
+            </div>
+        </figure>
+        <figure>
+            <img src="./static/images/project2.png" alt="Project Virtual Piano">
+            <div class="button-wrapper">
+                <button type="button" class="open-window">Virtual Piano</button>
+            </div>
+        </figure>
+    </div>
+
+    <!--Pop-up Window-->
+    <div id="popup-window" class="window hidden">
+        <div id="popup-content-wrapper">
+            <div id="popup-content"></div>
+            <div>
+                <button type="button" id="close-popup">Close</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contacts">
+    <h2>Contacts</h2>
+    <p>You can contact me on <a href = "mailto: jonedae@example.com">jonedae@example.com</a></p>
+    <div id="socials-wrapper">
+        <a href="#"><img src="./static/images/github.svg" alt="github contact"></a>
+        <a href="#"><img src="./static/images/facebook.svg" alt="facebook contact"></a>
+        <a href="#"><img src="./static/images/twitter.svg" alt="twitter contact"></a>
+        <a href="#"><img src="./static/images/instagram.svg" alt="instagram contact"></a>
+    </div>
+</section>
+
+<footer id="footer">
+    <p>Jone Dae, 2022</p>
+</footer>
+
+
+
+<script src="./static/script/index.js"></script>
+
+</body>
+</html>
